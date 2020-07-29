@@ -1,6 +1,14 @@
 {
   "name": "mlkit",
   "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "clear": "react-native start --reset-cache",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest"
+  },
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.2"
@@ -15,13 +23,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "clear": "react-native start --reset-cache",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest"
   }
 }
